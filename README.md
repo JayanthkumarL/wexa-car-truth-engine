@@ -113,7 +113,7 @@ Rather than embedding business logic in Cypher, the app fetches ordered, connect
 
 1. Sign up at [console.cognodb.com/signup](https://console.cognodb.com/signup) (free tier, no card required)
 2. Create a free (`c0`) instance and pick a region
-3. Copy the connection URI (`bolt+s://<instance-id>.databases.cognodb.cloud`) and the generated password (shown once) immediately
+3. Copy the connection URI (`bolt+s://<instance-id>.databases.cognodb.com`) and the generated password (shown once) immediately
 
 ### 2. Backend setup
 
