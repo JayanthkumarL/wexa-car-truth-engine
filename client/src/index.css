@@ -13,6 +13,50 @@
   --font-mono: 'JetBrains Mono', monospace;
 }
 
+/* =========================================================
+   Smooth Scrolling — Desktop & Mobile
+   - html: enables native smooth scroll for anchor links,
+     programmatic scrollTo, and React Router transitions
+   - -webkit-overflow-scrolling: touch momentum on iOS Safari
+   - Respects prefers-reduced-motion for accessibility
+   ========================================================= */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;   /* iOS momentum scrolling */
+}
+
+/* Disable smooth scroll for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Scrollbar styling — thin, matches dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.4) transparent;
+}
+
 /* Base font */
 html, body, #root {
   font-family: var(--font-body);
