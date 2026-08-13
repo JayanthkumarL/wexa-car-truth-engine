@@ -2,8 +2,7 @@
 
 A graph-powered vehicle history and fraud-detection application built for the Wexa AI Software Engineer (Full-Stack/Web) take-home assignment. Enter a VIN and get back a complete, chronological history of a vehicle — plus automatic detection of contradictions in that history, like rolled-back odometers or overlapping ownership records.
 
-**Live Demo:** TODO — add your deployed frontend URL here
-**Screen Recording:** TODO — add your recording link here
+**Live Demo:** https://wexa-car-truth-engine.vercel.app/
 
 ---
 
