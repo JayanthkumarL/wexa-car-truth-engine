@@ -200,6 +200,6 @@ wexa-car-truth-engine/
 - Credentials are read from environment variables only, never committed (see `.gitignore`).
 - The `/health` endpoint verifies live database connectivity independently of the app's uptime.
 - Seed data is idempotent (`MERGE`-based) — running the seed script multiple times will not create duplicates.
-
+- The frontend shows a friendly error state (not a crash or blank page) if the backend is unreachable or the database connection fails, and the `/health` endpoint independently verifies live database connectivity.
 ---
 
