@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* =========================================================
+   Global Font Application
+   - Orbitron    → headings, brand name (futuristic/tech)
+   - Space Grotesk → body text, UI labels (modern & sleek)
+   - JetBrains Mono → VIN codes, monospace data
+   ========================================================= */
+
+:root {
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base font */
+html, body, #root {
+  font-family: var(--font-body);
+}
+
+/* Display headings — Orbitron */
+h1 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+h2, h3, h4 {
+  font-family: var(--font-body);
+}
+
+/* All monospace / code elements */
+code, kbd, pre, .font-mono {
+  font-family: var(--font-mono) !important;
+}
