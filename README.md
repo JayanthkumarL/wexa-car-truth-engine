@@ -35,9 +35,9 @@ CognoDB (openCypher over Bolt, Neo4j-compatible) lets us express "give me everyt
 
 ## Data Model
 
-![Data model — live graph rendering of a seeded vehicle](docs/data-model-diagram.png)
+![Data model — live graph rendering of a seeded vehicles](docs/data-model-diagram.png)
 
-*(Screenshot above is a real rendering from the CognoDB browser, showing the actual seeded graph for one vehicle.)*
+*(Screenshot above is a real rendering from the CognoDB browser — the full seeded graph: 49 nodes, 57 relationships across 5 vehicles, with the schema legend visible on the left.)*
 
 ### Node labels & properties
 
@@ -203,4 +203,3 @@ wexa-car-truth-engine/
 
 ---
 
-Built by Jayanth Kumar L for the Wexa AI Software Engineer (Full-Stack/Web) assignment.
